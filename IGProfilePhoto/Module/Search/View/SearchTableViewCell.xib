@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="searchCellIdentifier" rowHeight="93" id="KGk-i7-Jjw" customClass="SearchTableViewCell" customModule="IGProfilePhoto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BIv-e5-ZCH">
+                        <rect key="frame" x="20" y="16.5" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="ik9-ge-QzP"/>
+                            <constraint firstAttribute="width" constant="60" id="p8L-Vq-xmG"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Varun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBw-40-dwv">
+                        <rect key="frame" x="95" y="25" width="44" height="19.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Varun Varshney" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hj4-Dx-z0d">
+                        <rect key="frame" x="95" y="44.5" width="117.5" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RBw-40-dwv" firstAttribute="leading" secondItem="BIv-e5-ZCH" secondAttribute="trailing" constant="15" id="0Z1-Yp-CJi"/>
+                    <constraint firstItem="RBw-40-dwv" firstAttribute="centerY" secondItem="BIv-e5-ZCH" secondAttribute="centerY" constant="-12" id="J3d-yK-EOa"/>
+                    <constraint firstItem="hj4-Dx-z0d" firstAttribute="top" secondItem="RBw-40-dwv" secondAttribute="bottom" id="LvW-4R-hld"/>
+                    <constraint firstItem="hj4-Dx-z0d" firstAttribute="leading" secondItem="BIv-e5-ZCH" secondAttribute="trailing" constant="15" id="dAI-lZ-1hv"/>
+                    <constraint firstItem="BIv-e5-ZCH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="tIh-ou-0Tc"/>
+                    <constraint firstItem="BIv-e5-ZCH" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="zNp-za-1or"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="fullNameLbl" destination="hj4-Dx-z0d" id="iSc-4U-rVB"/>
+                <outlet property="userNameLbl" destination="RBw-40-dwv" id="Th9-bB-MQ6"/>
+                <outlet property="userProfileImageView" destination="BIv-e5-ZCH" id="67k-YM-4tH"/>
+            </connections>
+            <point key="canvasLocation" x="-65.217391304347828" y="98.102678571428569"/>
+        </tableViewCell>
+    </objects>
+</document>

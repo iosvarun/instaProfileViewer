@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "832F8347-5027-4B2D-BFEF-5826840E0406"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13C971DA-DEBB-4E47-B45E-18A9A0C01F3B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/ViewModel/SearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "topSearchuser(searchUserName:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "13C971DA-DEBB-4E47-B45E-18A9A0C01F3B - 4ef8b6be36b9f2ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;IGProfilePhoto.CRError&gt;) -&gt; () in IGProfilePhoto.SearchViewModel.topSearchuser(searchUserName: Swift.String, completionHandler: Swift.Optional&lt;(Swift.Optional&lt;Swift.Array&lt;IGProfilePhoto.SearchUser&gt;&gt;, Swift.Optional&lt;IGProfilePhoto.CRError&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "IGProfilePhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/varun/Desktop/IGProfilePhoto/IGProfilePhoto/Module/Search/ViewModel/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "768">
+               </Location>
+               <Location
+                  uuid = "13C971DA-DEBB-4E47-B45E-18A9A0C01F3B - 7fa4fbee9fca59bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;IGProfilePhoto.TopSearchUserResponse&gt;, Swift.Optional&lt;IGProfilePhoto.CRError&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;IGProfilePhoto.CRError&gt;) -&gt; () in IGProfilePhoto.SearchViewModel.topSearchuser(searchUserName: Swift.String, completionHandler: Swift.Optional&lt;(Swift.Optional&lt;Swift.Array&lt;IGProfilePhoto.SearchUser&gt;&gt;, Swift.Optional&lt;IGProfilePhoto.CRError&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "IGProfilePhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/varun/Desktop/IGProfilePhoto/IGProfilePhoto/Module/Search/ViewModel/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "598316DB-0D8E-4B2D-BECA-A51CA23A42C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/Model/TopSearchUserResponse.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "TopSearchUserResponse"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FC97628-C82E-4AC0-9DAC-124BB90FFB6B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/Model/TopSearchUserResponse.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "CodingKeys"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  uuid = "4FC97628-C82E-4AC0-9DAC-124BB90FFB6B - 4fa231e0224b800d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IGProfilePhoto.TopSearchUserResponse.(CodingKeys in _79AEADBAE4C0A337C0C23D8A0AA27CEF).init(rawValue: Swift.String) -&gt; Swift.Optional&lt;IGProfilePhoto.TopSearchUserResponse.(CodingKeys in _79AEADBAE4C0A337C0C23D8A0AA27CEF)&gt;"
+                  moduleName = "IGProfilePhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/varun/Desktop/IGProfilePhoto/IGProfilePhoto/Module/Search/Model/TopSearchUserResponse.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "4FC97628-C82E-4AC0-9DAC-124BB90FFB6B - ed185b8813c33e86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IGProfilePhoto.TopSearchUserResponse.(CodingKeys in _79AEADBAE4C0A337C0C23D8A0AA27CEF).rawValue.getter : Swift.String"
+                  moduleName = "IGProfilePhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/varun/Desktop/IGProfilePhoto/IGProfilePhoto/Module/Search/Model/TopSearchUserResponse.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E810EB4-CFB0-408A-B9EA-5DD0491181C5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/Model/TopSearchUserResponse.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "CodingKeys"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  uuid = "1E810EB4-CFB0-408A-B9EA-5DD0491181C5 - 4fa231e0224b800d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IGProfilePhoto.TopSearchUserResponse.(CodingKeys in _79AEADBAE4C0A337C0C23D8A0AA27CEF).init(rawValue: Swift.String) -&gt; Swift.Optional&lt;IGProfilePhoto.TopSearchUserResponse.(CodingKeys in _79AEADBAE4C0A337C0C23D8A0AA27CEF)&gt;"
+                  moduleName = "IGProfilePhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/varun/Desktop/IGProfilePhoto/IGProfilePhoto/Module/Search/Model/TopSearchUserResponse.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "1E810EB4-CFB0-408A-B9EA-5DD0491181C5 - ed185b8813c33e86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IGProfilePhoto.TopSearchUserResponse.(CodingKeys in _79AEADBAE4C0A337C0C23D8A0AA27CEF).rawValue.getter : Swift.String"
+                  moduleName = "IGProfilePhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/varun/Desktop/IGProfilePhoto/IGProfilePhoto/Module/Search/Model/TopSearchUserResponse.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA0C3BD0-432D-4B94-8AFD-5AF13F93BDC2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/Model/TopSearchUserResponse.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE93D375-0875-4F4A-9BBB-A958053C6132"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/Model/TopSearchUserResponse.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0872F14-979D-4DFD-AF8C-798ED3BC5DAF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/Model/SearchUser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "SearchUser"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA3B9D73-3AAE-4568-8B61-881F0001107A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/Model/SearchUser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "SearchUser"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEB2D0DA-E700-4DEC-B4BA-E50BF91A8E68"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/Model/SearchUser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4B985F4-A19A-466E-A5B2-00BB8F0ED03D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/Model/SearchUser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10E4331A-79C4-40D2-BFA2-D21EE9025100"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/Model/SearchUser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2F57644-5C9B-4FD8-BDAE-94A76E9CE832"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/Model/SearchUser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B24B04B6-4CFD-4665-907C-9FD512928F2E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/Model/SearchUser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "406B6FD3-742C-4941-8E38-9B4C90A0BA5A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/APIManager/CRError.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "title"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "406B6FD3-742C-4941-8E38-9B4C90A0BA5A - 77db332dc09b35c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IGProfilePhoto.CRError.title.getter : Swift.String"
+                  moduleName = "IGProfilePhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/varun/Desktop/IGProfilePhoto/IGProfilePhoto/APIManager/CRError.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "406B6FD3-742C-4941-8E38-9B4C90A0BA5A - 77db332dc09b35c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IGProfilePhoto.CRError.title.getter : Swift.String"
+                  moduleName = "IGProfilePhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/varun/Desktop/IGProfilePhoto/IGProfilePhoto/APIManager/CRError.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35F6FA13-173E-43B0-ACA2-64A44BED1F64"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/APIManager/CRError.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "title"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9960EC59-EEB6-416D-B14C-310525C09B54"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/APIManager/NetworkAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "request(_:completionHandler:errorHandler:networkErrorHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3202DE87-93A5-4BC5-9398-B5A88A8A0637"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/Handler/SearchParseHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "parse(data:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAA247EC-B8E5-44B6-8C4D-2BC11093835E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Module/Search/Handler/SearchParseHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "parse(data:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2684E95F-2B6D-4C47-AAF1-2C308580047E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/Common/Extensions/Codable+Extensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "decode(with:from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A49F5337-F339-420E-ACFB-F82CC9A5602C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGProfilePhoto/APIManager/NetworkAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "request(_:completionHandler:errorHandler:networkErrorHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

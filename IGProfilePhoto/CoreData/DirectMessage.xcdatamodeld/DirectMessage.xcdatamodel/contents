@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CustomMessage" representedClassName="CustomMessage" syncable="YES">
+        <attribute name="messageId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="messageTitle" optional="YES" attributeType="String"/>
+        <attribute name="messageTxt" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MessageHistory" representedClassName="MessageHistory" syncable="YES">
+        <attribute name="messageId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="messageTime" optional="YES" attributeType="String"/>
+        <attribute name="messageTimeStamp" optional="YES" attributeType="String"/>
+        <attribute name="messageTxt" optional="YES" attributeType="String"/>
+        <attribute name="messageType" optional="YES" attributeType="String"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="MessageHistory" positionX="-63" positionY="9" width="128" height="119"/>
+        <element name="CustomMessage" positionX="-63" positionY="45" width="128" height="74"/>
+    </elements>
+</model>
